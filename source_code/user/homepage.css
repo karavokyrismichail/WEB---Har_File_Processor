@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+body{
+    backGround: #F8F8FF;
+}
+
+.title{
+    text-align:center;
+    font-size: 140%;
+    margin: 20px;
+    backGround: #d7d7e2;
+    position: sticky;
+    top: 0;
+}
+
+.userOptions{
+    width: 60%;
+    margin-top:  50px;
+    margin-left: 20%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+.welcome{
+    text-align: center;
+    padding-bottom: 20px;
+}

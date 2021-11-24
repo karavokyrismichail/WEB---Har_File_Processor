@@ -1,0 +1,15 @@
+.upload-file{
+    margin-top: 50px;
+    text-align:center;
+    font-size: 140%;
+    background-color: #CDCDCD;
+    border-radius: 20px;
+}
+
+.buttons{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:center;
+    font-size: 140%;
+}
