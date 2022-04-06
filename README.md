@@ -1,11 +1,11 @@
 # Har_File_Processor
 
-Project for Web Design Course of the Department of Computer Engineering & Informatics.
+Project for the Web Design Course of the [Department of Computer Engineering & Informatics](https://www.ceid.upatras.gr/en).
 
 
 ## Description
 A complete web application that collects, manages and
-analyzes Crowdsourcing information concerning HTTP traffic data.
+analyzes [Crowdsourcing](https://www.investopedia.com/terms/c/crowdsourcing.asp) information concerning HTTP traffic data.
 
 ## Functional Specifications
 
@@ -21,6 +21,8 @@ analyzes Crowdsourcing information concerning HTTP traffic data.
 - **Response time analysis** (Admin can see a configurable diagramm that displays information about responsed time analysis)
 - **HTTP header analysis** (Admin can see graphs depicting information about the headers)
 - **Data visualization** (Map that shows with markers IPs locations to which it has sent HTTP requests)
+
+## You can see images from the final project [HERE](https://github.com/karavokyrismichail/WEB---Har_File_Processor/tree/main/photos)
 
 ## Tools
 
