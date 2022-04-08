@@ -1,0 +1,70 @@
+CREATE DATABASE har_file_processor;
+
+CREATE TABLE `entries` (
+  `entry_id` int(11) NOT NULL,
+  `serverIPAddress` text DEFAULT NULL,
+  `startedDateTime` text DEFAULT NULL,
+  `wait_time` float DEFAULT NULL,
+  `id_har` int(11) NOT NULL,
+  `provider` text DEFAULT NULL,
+  `dayofWeek` int(11) NOT NULL,
+  `langitude` float NOT NULL,
+  `longitude` float NOT NULL,
+  `map_check` int(11) DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `har_files` (
+  `har_file_id` int(11) NOT NULL,
+  `file_url` text NOT NULL,
+  `up_date` date NOT NULL,
+  `user_email` varchar(35) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `map_data` (
+  `serverLat` float NOT NULL,
+  `serverLon` float NOT NULL,
+  `count` int(11) NOT NULL,
+  `user` varchar(35) NOT NULL,
+  `Lat` float NOT NULL,
+  `Lon` float NOT NULL,
+  `id_mdata` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `requests` (
+  `request_id` int(11) NOT NULL,
+  `method` text DEFAULT NULL,
+  `domain_url` tinytext DEFAULT NULL,
+  `id_har` int(11) NOT NULL,
+  `id_entr` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `request_headers` (
+  `request_header_id` int(11) NOT NULL,
+  `host_field` text DEFAULT NULL,
+  `reqs_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `responses` (
+  `response_id` int(11) NOT NULL,
+  `status_field` text DEFAULT NULL,
+  `status_text` text DEFAULT NULL,
+  `id_har` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `response_headers` (
+  `response_header_id` int(11) NOT NULL,
+  `content_type` text DEFAULT NULL,
+  `cache_control` text DEFAULT NULL,
+  `pragma` text DEFAULT NULL,
+  `expires` text DEFAULT NULL,
+  `last_modified` text DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `responses_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `users` (
+  `email` varchar(35) NOT NULL,
+  `password` text NOT NULL,
+  `username` text NOT NULL,
+  `user_type` enum('admin','user') DEFAULT 'user'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
