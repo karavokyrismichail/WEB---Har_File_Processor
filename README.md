@@ -22,7 +22,18 @@ analyzes [Crowdsourcing](https://www.investopedia.com/terms/c/crowdsourcing.asp)
 - **HTTP header analysis** (Admin can see graphs depicting information about the headers)
 - **Data visualization** (Map that shows with markers IPs locations to which it has sent HTTP requests)
 
-## You can see images from the final project [HERE](https://github.com/karavokyrismichail/WEB---Har_File_Processor/tree/main/photos)
+## You can see the images from the final project [HERE](https://github.com/karavokyrismichail/WEB---Har_File_Processor/tree/main/photos)
+
+Sign-up             |  Passwords match!
+:-------------------------:|:-------------------------:
+![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_1.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_3.png)
+User already exists            |  User - Frontpage
+![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_4.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_5.png)
+User - Profile Settings    |  User - Heatmap (Data visualization)
+![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_6.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_7.png)
+Admin - Basic Information   |  Admin - Response time analysis
+![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_8.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_9.png)
+
 
 ## Tools
 
