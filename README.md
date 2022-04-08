@@ -27,11 +27,11 @@ analyzes [Crowdsourcing](https://www.investopedia.com/terms/c/crowdsourcing.asp)
 Sign-up             |  Passwords match!
 :-------------------------:|:-------------------------:
 ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_1.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_3.png)
-User already exists            |  User - Frontpage
+**User already exists**   |  **User - Frontpage**
 ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_4.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_5.png)
-User - Profile Settings    |  User - Heatmap (Data visualization)
+**User - Profile Settings**  |  **User - Heatmap (Data visualization)**
 ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_6.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_7.png)
-Admin - Basic Information   |  Admin - Response time analysis
+**Admin - Basic Information**   |  **Admin - Response time analysis**
 ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_8.png)  |  ![](https://github.com/karavokyrismichail/WEB---Har_File_Processor/blob/main/photos/Screenshot_9.png)
 
 
